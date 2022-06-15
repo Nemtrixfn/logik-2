@@ -55,11 +55,6 @@ namespace logik_2
                 rndValue = random.Next(1, 7);
                 Pattern[i] = new pin() { Color = PinColor.Color6 };
             }
-            for (int i = 0; i < 4; i++)
-            {
-                rndValue = random.Next(1, 7);
-                Pattern[i] = new pin() { Color = PinColor.Color7 };
-            }
         }
 
         public void EvaluateActualAttempt()
